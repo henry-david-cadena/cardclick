@@ -9,15 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^2.0.14",
+    "@aws-sdk/client-s3": "^3.501.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "clone-deep": "^4.0.1",
+    "date-fns": "^3.3.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-hot-toast": "^2.4.1",
+    "react-sortablejs": "^6.1.4",
+    "recharts": "^2.11.0",
+    "sortablejs": "^1.15.2",
+    "uniqid": "^5.4.0"
   },
   "devDependencies": {
+    "@types/sortablejs": "^1.15.7",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
   }
 }
